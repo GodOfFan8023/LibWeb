@@ -1,0 +1,179 @@
+/*******************通用的样式********************/
+
+body{
+    font-size: 13px;
+    font-family:"Times New Roman";
+    color: black;
+}
+/******************头部的样式********************/
+#lk_header{
+
+}
+.top-bar{
+    padding: 0px;
+    height: 40px;
+    line-height: 39px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.top-bar .container .row>div+div{
+    /*border-left: 1px solid #e2e2e2;*/
+}
+#lk_header .two{
+    padding: 0px;
+}
+.navbar-lk{
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    margin-bottom: 0px;
+
+}
+.navbar-brand{
+    width: 100px;
+    height: 70px;
+    padding: 0px 0px;
+
+}
+.navbar-lk .navbar-nav a{
+    height: 70px;
+    line-height: 45px;
+}
+.navbar-lk .navbar-nav li.active a,
+.navbar-lk .navbar-nav li a:hover{
+    background-color: transparent;
+    border-bottom: 2px solid #2aabd2 ;
+}
+.navbar-lk .navbar-nav .dropdown-menu a{
+    height: 40px;
+}
+/**********************巨幕**************************/
+#jumborons .jumbotron{
+    font-family: "Buxton Sketch";
+    color: red;
+}
+/**********************巨幕**************************/
+/**********************搜索功能**********************/
+#sereach{
+
+}
+#sereach .input-group{
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+/**********************搜索功能**********************/
+/**********************播放器************************/
+
+#videoplayer {
+    padding-top: 20px;
+    background-color:#1C1D21;
+    padding-bottom: 50px;
+}
+#videoplayer .row{
+    background-color: #0f0f0f;
+}
+.plyr {
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+#videoplayer .videoplayer-left{
+    width:100%;
+    height: 415px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#video{
+    /*height: 80vh;*/
+    float: left;
+    background: black;
+    position: relative;   /*去掉这句将会使得video优先级失效*/
+    z-index: 99;
+}
+/**********************播放器************************/
+/**********************播放列表**********************/
+#videoplayer .player_side{
+    background-color: #0f0f0f;
+    width:33%;
+    padding-top: 0px;
+    padding-left: 2px;
+    padding-right: 10px;
+    color:#7F8289;
+}
+#videoplayer .player_side .panel{
+    background-color: #0f0f0f;
+}
+#videoplayer .player_side .media-body{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#videoplayer .player_side .media-body:hover{
+    background-color: lightgray;
+    color:#0f0f0f;
+    font-weight: bold;
+}
+#videoplayer .player_side .nav-tabs{
+
+    border-bottom: 0px;
+}
+#videoplayer .player_side .nav-tabs a{
+    width: 80px;
+    border: 0px;
+}
+#videoplayer .player_side .nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+    color:white;
+    background-color: #2aabd2;
+}
+.media-left, .media > .pull-left {
+    padding-right: 2px;
+}
+/**********************播放列表**********************/
+/**********************视频简介**********************/
+
+#videoplayer .introduction h3{
+    color: #e0e0e0;
+}
+/**********************视频简介**********************/
+/**********************更多视频**********************/
+#more_videos{
+    width: 100%;
+}
+/**********************更多视频**********************/
+/**********************尾部信息**********************/
+#lk_footer{
+    width: 100%;
+    height: 150px;
+    background-color:#1C1D21;
+    color: #FFFFFF;
+    list-style: none;
+    font-size: 15px;
+}
+#lk_footer ul{
+    list-style: none;
+}
+#lk_footer .one ,#lk_footer .two {
+    padding: 20px;
+    border-right: 1px solid #666666;
+    height: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#lk_footer .three{
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#lk_footer .one li{
+    line-height: 30px;
+    color: #FFFFFF;
+}
+#lk_footer .one li a{
+    color: #FFFFFF;
+}
+/**********************尾部信息**********************/
